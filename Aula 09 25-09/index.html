@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Tela 03</title>
+  </head>
+  <body>
+    <main>
+      <canvas id="barra_top"></canvas>
+      <canvas id="quadrado"></canvas>
+      <p id="inscreva">Inscreva-se</p>
+
+      <form id="form_inscreva">
+        <label id="label"> Nome </label><br />
+        <input type="text" id="input"></input><br />
+
+        <label id="label"> E-mail </label><br />
+        <input type="text" id="input"></input><br />
+
+        <label id="label"> Senha </label><br>
+        <input type="password" id="input"></input><br>
+        <img src="img/svg/esconder.svg" alt="Ícone de um olho" id="olho">
+
+        <label id="label_cep"> CEP </label>
+        <label id="label_num"> Número </label><br>
+
+        <input type="text" id="input_cep"></input>
+        <input type="text" id="input_num"></input><br>
+
+        <label id="label"> Endereço </label><br>
+        <input type="text" id="input"></input><br>
+
+        <label id="label"> Cidade </label><br>
+        <select id="select">
+          <option value=""> Selecione uma cidade </option>
+          <option value="saopaulo"> São Paulo </option>
+          <option value="riodejaneiro"> Rio de Janeiro </option>
+          <option value="santos"> Santos </option>
+          <option value="guarulhos"> Guarulhos </option>
+        </select>
+        
+        <input type="checkbox" id="input_checkbox">
+        <p id="p_checkbox">Concordo com os termos e a condição</p><br>
+
+        <button type="submit" id="id_button">Cadastrar</button>
+      </form>
+    </main>
+  </body>
+</html>
